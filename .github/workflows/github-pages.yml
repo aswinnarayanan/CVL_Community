@@ -16,6 +16,8 @@ jobs:
             #echo "Packaged bundler version: $(bundle --version)"
             #echo "Updating bundler..."
             #gem install bundler
+            echo "[DEBUG] bundle update jekyll-target-blank"
+            bundle update jekyll-target-blank
             echo "[DEBUG] bundle update github-pages"
             bundle update github-pages
             echo "[DEBUG] bundle update html-pipeline"
